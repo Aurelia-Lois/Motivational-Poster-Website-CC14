@@ -1,0 +1,40 @@
+/* Name: Your Name
+  ID Number: Your ID Number
+*/
+
+body {
+  background-color: black;
+  color: white;
+  /* Centering the container vertically on the screen */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.poster-container {
+  /* Hint implementation: Center a div using width and margin-left */
+  width: 50%;
+  margin-left: 0%;
+  text-align: center;
+}
+
+img {
+  /* Hint implementation: Fill the div and add the 5px white border */
+  width: 100%;
+  border: 5px solid white;
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  /* Making text uppercase using CSS */
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin-top: 30px;
+}
+
+p {
+  font-family: 'Source Sans Pro' , sans-serif;
+  font-size: 1.2rem;
+}
